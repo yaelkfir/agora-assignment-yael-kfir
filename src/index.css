@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.react-resizable {
+  position: relative;
+  background-clip: padding-box;
+}
+
+.react-resizable-handle {
+  position: absolute;
+  right: -20px;
+  bottom: -20px;
+  top: -20px;
+  z-index: 1;
+  width: 20px;
+  cursor: col-resize;
+}
